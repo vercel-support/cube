@@ -2,6 +2,8 @@ const TypeDoc = require('typedoc');
 const path = require('path');
 const fs = require('fs-extra');
 
+console.log('REACHED GENERATE.JS!');
+
 const outputDir = '../docs/docs-new/pages/reference/frontend';
 
 const app = new TypeDoc.Application();
